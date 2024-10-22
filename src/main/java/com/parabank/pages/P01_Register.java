@@ -105,10 +105,6 @@ public class P01_Register
         driver.findElement(registerButtonLocator).click();
     }
 
-    public String getLoggedInMessage()
-    {
-        return driver.findElement(By.linkText("Your account was created successfully. You are now logged in.")).getText();
-    }
 
     public String getLoginMessage()
     {
